@@ -1,5 +1,8 @@
 module DateParsing
 
-# package code goes here
+## RFC3339
+include("tryparse.jl")
+include("fastparse.jl")
+
 
 end # module
